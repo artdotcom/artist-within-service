@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: WARN
+    com:
+      art:
+        service:
+          artist-within: INFO
+    org:
+      springframework: WARN
+
+platform:
+  discovery:
+    zone:
+      enabled: true

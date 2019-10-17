@@ -1,0 +1,9 @@
+chart:
+  name: java-service
+  version: 0.1.0
+
+defaults:
+  metrics:
+    serviceMonitor: true
+#  ingress:
+#    scheme: internet-facing

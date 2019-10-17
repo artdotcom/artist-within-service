@@ -1,0 +1,16 @@
+spring:
+   application:
+      name: artist-within-service
+   cloud:
+      consul:
+         host: localhost
+      vault:
+        enabled: false
+        discovery:
+          enabled: true
+        fail-fast: false
+        scheme: http
+        connection-timeout: 1000
+        read-timeout: 5000
+        authentication: TOKEN
+        token: xyz00000000000000000000000
