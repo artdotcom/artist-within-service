@@ -84,6 +84,7 @@ public class ArtistWithinController {
                 .name(room.getName())
                 .backgroundImage(room.getBackgroundImage())
                 .regions(regions)
+                .map(new HashMap<>())
                 .build();
     }
 

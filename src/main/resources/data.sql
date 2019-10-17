@@ -33,7 +33,7 @@ values(11, 'Fun Flair', 'UI_011.png', 'DECOR','');
 
 
 insert into room
-values('defaultRoom', '', 'Table,Frame,ChairLeft,ChairRight');
+values('defaultRoom', '01', 'Table,Frame,ChairLeft,ChairRight');
 
 
 insert into region
