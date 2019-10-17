@@ -37,7 +37,7 @@ values('defaultRoom', '01', 'Table,Frame,ChairLeft,ChairRight');
 
 
 insert into region
-values('Table', '200, 555, 300, 555, 175, 650, 75, 650', 'TABLE', 'poly');
+values('Table', '264, 734, 397, 734, 231, 859, 99, 859', 'TABLE', 'poly');
 
 insert into region
 values('ChairLeft', '342,335,720,800', 'CHAIR', 'rect');
@@ -46,7 +46,7 @@ insert into region
 values('ChairRight', '880,330,1280,820', 'CHAIR', 'rect');
 
 insert into region
-values('Frame', '700, 286, 500, 0', 'ART', 'rect');
+values('Frame', '925, 378, 661, 0', 'ART', 'rect');
 
 
 insert into room_configuration
