@@ -16,8 +16,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
@@ -121,7 +123,7 @@ public class ArtistWithinController {
         return roomMap
                 .entrySet()
                 .stream()
-                .sorted()
+                .sorted(Comparator.comparing(Map.Entry::getKey))
                 .map(entry -> String.format("%s:%s", entry.getKey(), entry.getValue()))
                 .collect(Collectors.joining(","));
     }
