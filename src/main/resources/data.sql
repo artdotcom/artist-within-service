@@ -37,7 +37,7 @@ values('defaultRoom', '01', 'LeftWall,Frame,ChairLeft,ChairRight,BackWall,Rug,Ri
 
 
 insert into region
-values('LeftWall', '264, 734, 397, 734, 231, 859, 99, 859', 'TABLE', 'poly');
+values('LeftWall', '264, 734, 397, 734, 231, 859, 99, 859', 'BENCH', 'poly');
 
 insert into region
 values('ChairLeft', '342,335,720,800', 'CHAIR', 'rect');
